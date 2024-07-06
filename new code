@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Function to return precedence of operators
+
 int prec(char c) {
     if (c == '^')
         return 3;
@@ -14,11 +14,11 @@ int prec(char c) {
         return -1;
 }
 
-// Function to return associativity of operators
+
 char associativity(char c) {
     if (c == '^')
         return 'R';
-    return 'L'; // Default to left-associative
+    return 'L'; 
 }
 
 // The main function to convert infix expression to postfix expression
