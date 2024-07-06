@@ -21,7 +21,7 @@ char associativity(char c) {
     return 'L'; 
 }
 
-// The main function to convert infix expression to postfix expression
+
 void infixToPostfix(char s[]) {
     char result[1000];
     int resultIndex = 0;
