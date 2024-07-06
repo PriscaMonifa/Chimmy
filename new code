@@ -32,7 +32,7 @@ void infixToPostfix(char s[]) {
     for (int i = 0; i < len; i++) {
         char c = s[i];
 
-        // If the scanned character is an operand, add it to the output string.
+       
         if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9')) {
             result[resultIndex++] = c;
         }
