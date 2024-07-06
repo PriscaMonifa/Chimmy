@@ -36,7 +36,7 @@ void infixToPostfix(char s[]) {
         if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9')) {
             result[resultIndex++] = c;
         }
-        // If the scanned character is an ‘(‘, push it to the stack.
+       
         else if (c == '(') {
             stack[++stackIndex] = c;
         }
